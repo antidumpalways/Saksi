@@ -1,0 +1,15 @@
+[package]
+name = "saksi-contract"
+version = "0.1.0"
+edition = "2021"
+description = "Saksi policy and attestation contract for Stellar RWA credit"
+license = "Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = "=25.0.0"
+
+[dev-dependencies]
+soroban-sdk = { version = "=25.0.0", features = ["testutils"] }

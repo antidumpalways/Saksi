@@ -1,0 +1,23 @@
+{
+  "name": "@saksi/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "saksi-mcp": "./src/index.ts"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

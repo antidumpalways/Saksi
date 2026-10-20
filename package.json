@@ -1,0 +1,11 @@
+{
+  "name": "saksi",
+  "private": true,
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "dev": "pnpm --filter @saksi/api dev",
+    "test": "pnpm --filter @saksi/api test",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm --filter @saksi/api lint"
+  }
+}
