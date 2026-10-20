@@ -25,3 +25,11 @@ test_snapshots/
 Thumbs.db
 .vscode/
 .idea/
+
+# local agent tooling (not part of the product)
+.opencode/
+opencode.json
+AGENTS.md
+docs/agents/
+docs/context/
+
